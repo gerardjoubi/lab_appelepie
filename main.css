@@ -1,0 +1,28 @@
+/*.blocks.flex {
+    display: flex;
+    border: 1px solid;
+    height:300px;
+    justify-content: center;
+    flex-direction: column;
+}*/
+body{
+    background-color: red;
+}
+.blocks.imag1{
+    
+        width:20px;
+    height:20px;
+
+}
+.blocks.flex .block{
+    flex:1;
+}
+.block{
+    display: flex;
+   
+    align-items: center;
+}
+
+.blocks .block:last-of-type {
+    margin-right: 0;
+}
