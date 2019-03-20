@@ -1,7 +1,8 @@
 
 .blocks{
     text-align: center;
-    }
+    display: flex;    
+}
 
 .imag1{ 
     background-image: url("../images/apple-pie.jpg");
@@ -22,6 +23,9 @@
   .imag2{ 
     width: 500px;
   border-top: solid;
+}
+.block{
+    text-align: center;
 }
 /*.blocks.flex .block{
     flex:1;
